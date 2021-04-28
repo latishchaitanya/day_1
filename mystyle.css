@@ -1,0 +1,64 @@
+  .container{
+    position: relative;
+    right: 0;
+    top: 300px;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  body{
+    padding-top: 150px;
+    margin: 0px;
+    background-image: url(https://data.whicdn.com/images/232663439/original.gif);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .form-area{
+    position : absolute ;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: fit-content;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+  }
+  .form-area input[type= text],
+  .form-area input[type= email]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+  }
+  .form-area input[type=submit]{
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: rgb(115, 146, 172);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .form-area input[type=date]{
+    position: relative ;
+    border: none;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: rgb(33, 70, 88);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  form{
+    color: rgb(252, 252, 252);
+  }
